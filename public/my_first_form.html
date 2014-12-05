@@ -9,6 +9,8 @@
 
 	<h1>My First HTML Form</h1>	
 
+	<h2>User Login</h2>
+
 	<form method="POST" action="http://requestb.in/178zuow1">
     <p>
         <label for="username">Username</label>
@@ -18,11 +20,77 @@
         <label for="password">Password</label>
         <input id="password" name="password" type="password" placeholder="Enter your password">
     </p>
-    <p>
+   
+
+    <label for="mailing_list">
+	    <input type="checkbox" id="mailing_list" name="mailing_list" value="yes">
+	    <label for="mailing_list">Sign me up for the mailing list!</label>
+	</label>
+
+	<p>
+	<label for="mailing_list">
+	    <input type="checkbox" id="mailing_list" name="mailing_list" value="yes">Sign me up for the mailing list!
+	</label>
+	</p>
+
+	<p>What operating systems have you used?</p>
+	<label><input type="checkbox" id="os1" name="os[]" value="linux"> Linux</label>
+	<label><input type="checkbox" id="os2" name="os[]" value="osx"> OS X</label>
+	<label><input type="checkbox" id="os3" name="os[]" value="windows"> Windows</label>
+
+	 <p>
         <button type="submit">Login</button>
     </p>
-</form>
 
+	</form>
+
+
+
+	<h2>Compose An Email</h2>
+
+	<form method="POST" action="http://requestb.in/178zuow1">
+    <p>
+        <label for="to">To</label>
+        <input id="to" name="to" type="text" placeholder="Recipient email address">
+    </p>
+    <p>
+        <label for="from">From</label>
+        <input id="from" name="from" type="text" placeholder="Your email address">
+    </p>
+
+    <p>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Subject">Subject</textarea>
+    </p>
+
+	<p>
+        <label for="body"></label>
+        <textarea id="body" name="body" placeholder="" rows="15" cols="100"></textarea>
+    </p>
+
+    <p>
+        <button type="submit">SEND</button>
+    </p>
+
+	</form>
+
+	<p>What is the capital of Texas?</p>
+<label>
+    <input type="radio" id="q1a" name="q1" value="houston">
+    Houston
+</label>
+<label>
+    <input type="radio" id="q1b" name="q1" value="dallas">
+    Dallas
+</label>
+<label>
+    <input type="radio" id="q1c" name="q1" value="austin">
+    Austin
+</label>
+<label>
+    <input type="radio" id="q1d" name="q1" value="san antonio">
+    San Antonio
+</label>
 
 
 
