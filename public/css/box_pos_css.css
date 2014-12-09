@@ -6,61 +6,119 @@ body {
 
 }
 
-.box1 {
+
+
+#bigbox {
+	width: 450px;
+	height: 311px;
+	border: 1px solid black;
+	margin: 5px;
+}
+
+#redbox {
+	width: 110px;
+	height: 50px;
+	margin: 20px;
+	float: left;
+	/*border: 1px solid black;*/
+}
+
+#red {
 	border: 1px solid black;
 	background-color: #d84231;
-	height: 50px;
-	width: 150px;
-	padding: 10px;
-	margin-bottom: 10px;
+	height: 70px;
+	width: 70px;
+	padding: 1px;
+	/*margin-bottom: 10px;*/
+	float: left;
 }
 
-.box2 {
+#pukebox {
+	width: 120px;
+	height: 125px;
+	float: left;
+	/*border: 1px solid black;*/
+}
+
+#puke {
 	border: 1px solid black;
 	background-color: #eaae33;
-	height: 50px;
-	width: 150px;
-	padding: 10px;
-	margin-left: 30px;
-	margin-bottom: 10px;
+	height: 70px;
+	width: 70px;
+	padding: 1px;
+	/*margin-left: 30px;
+	margin-bottom: 10px;*/
+	float: left;
 }
 
-.box3 {
+#yellowbox {
+	width: 120px;
+	height: 125px;
+	float: left;
+	/*border: 1px solid black;*/
+}
+
+#yellow {
 	border: 1px solid black;
 	background-color: #fdf733;
-	height: 50px;
-	width: 150px;
-	padding: 10px;
-	margin-left: 60px;
-	margin-bottom: 10px;
+	height: 70px;
+	width: 70px;
+	padding: 1px;
+	/*margin-left: 60px;
+	margin-bottom: 10px;*/
+	float: left;
 }
 
-.box4 {
+#greenbox {
+	width: 120px;
+	height: 125px;
+	float: left;
+	/*border: 1px solid black;*/
+}
+
+#green {
 	border: 1px solid black;
 	background-color: #578c05;
-	height: 50px;
-	width: 150px;
-	padding: 10px;
-	margin-left: 90px;
-	margin-bottom: 10px;
+	height: 70px;
+	width: 70px;
+	padding: 1px;
+	float: left;
+	/*margin-left: 90px;
+	margin-bottom: 10px;*/
 }
 
-.box5 {
+#bluebox {
+	width: 120px;
+	height: 125px;
+	float: left;
+	/*border: 1px solid black;*/
+}
+
+#blue {
 	border: 1px solid black;
 	background-color: #234afb;
-	height: 50px;
-	width: 150px;
-	padding: 10px;
-	margin-left: 120px;
-	margin-bottom: 10px;
+	height: 70px;
+	width: 70px;
+	padding: 1px;
+	float: left;
+	/*margin-left: 120px;
+	margin-bottom: 10px;*/
 }
 
-.box6 {
+#purplebox {
+	width: 120px;
+	height: 125px;
+	float: left;
+	/*border: 1px solid black;*/
+}
+
+#purple {
 	border: 1px solid black;
 	background-color: #df8bf0;
-	height: 50px;
-	width: 150px;
-	padding: 10px;
-	margin-left: 150px;
-	margin-bottom: 10px;
+	height: 70px;
+	width: 70px;
+	padding: 1px;
+	float: left;
+	/*margin-left: 150px;
+	margin-bottom: 10px;*/
 }
