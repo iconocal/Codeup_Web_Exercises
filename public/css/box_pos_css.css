@@ -15,30 +15,43 @@ body {
 	margin: 5px;
 }
 
-#redbox {
+.arrow {
+	position: relative;
+	float: right;
+}
+
+.colorbox {
+	width: 110px;
+	height: 100px;
+	margin: 20px;
+	border: 1px solid black;
+
+	/*border: 1px solid black;*/
+}
+
+/*#redbox {
 	width: 110px;
 	height: 50px;
 	margin: 20px;
 	float: left;
-	/*border: 1px solid black;*/
-}
+}*/
 
 #red {
 	border: 1px solid black;
 	background-color: #d84231;
 	height: 70px;
 	width: 70px;
-	padding: 1px;
+	/*bottom: 20px;*/
+
 	/*margin-bottom: 10px;*/
-	float: left;
+/*	float: left;*/
 }
 
-#pukebox {
+/*#pukebox {
 	width: 120px;
 	height: 125px;
 	float: left;
-	/*border: 1px solid black;*/
-}
+}*/
 
 #puke {
 	border: 1px solid black;
@@ -51,12 +64,11 @@ body {
 	float: left;
 }
 
-#yellowbox {
+/*#yellowbox {
 	width: 120px;
 	height: 125px;
 	float: left;
-	/*border: 1px solid black;*/
-}
+}*/
 
 #yellow {
 	border: 1px solid black;
@@ -69,12 +81,11 @@ body {
 	float: left;
 }
 
-#greenbox {
+/*#greenbox {
 	width: 120px;
 	height: 125px;
 	float: left;
-	/*border: 1px solid black;*/
-}
+}*/
 
 #green {
 	border: 1px solid black;
@@ -87,12 +98,11 @@ body {
 	margin-bottom: 10px;*/
 }
 
-#bluebox {
+/*#bluebox {
 	width: 120px;
 	height: 125px;
 	float: left;
-	/*border: 1px solid black;*/
-}
+}*/
 
 #blue {
 	border: 1px solid black;
@@ -105,13 +115,12 @@ body {
 	margin-bottom: 10px;*/
 }
 
-#purplebox {
+/*#purplebox {
 	width: 120px;
 	height: 125px;
 	float: left;
-	/*border: 1px solid black;*/
 }
-
+*/
 #purple {
 	border: 1px solid black;
 	background-color: #df8bf0;
