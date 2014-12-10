@@ -9,22 +9,22 @@ body {
 
 
 #bigbox {
-	width: 450px;
+	width: 500px;
 	height: 311px;
-	border: 1px solid black;
-	margin: 5px;
+	margin: 0px 0px 0px 0px;
 }
 
 .arrow {
-	position: relative;
+/*	position: relative;*/
 	float: right;
 }
 
 .colorbox {
-	width: 110px;
+	width: 115px;
 	height: 100px;
-	margin: 20px;
-	border: 1px solid black;
+	margin: 0px 15px 20px 0px;
+	position: relative;
+	float: left;
 
 	/*border: 1px solid black;*/
 }
@@ -41,10 +41,10 @@ body {
 	background-color: #d84231;
 	height: 70px;
 	width: 70px;
-	/*bottom: 20px;*/
-
-	/*margin-bottom: 10px;*/
-/*	float: left;*/
+	position: absolute;
+        top: 40px;
+        right: 43px;
+/*	clear: right;*/
 }
 
 /*#pukebox {
@@ -58,9 +58,9 @@ body {
 	background-color: #eaae33;
 	height: 70px;
 	width: 70px;
-	padding: 1px;
-	/*margin-left: 30px;
-	margin-bottom: 10px;*/
+	position: absolute;
+        top: 40px;
+        right: 40px;
 	float: left;
 }
 
@@ -75,9 +75,9 @@ body {
 	background-color: #fdf733;
 	height: 70px;
 	width: 70px;
-	padding: 1px;
-	/*margin-left: 60px;
-	margin-bottom: 10px;*/
+	position: absolute;
+        top: 40px;
+        right: 40px;
 	float: left;
 }
 
@@ -92,10 +92,10 @@ body {
 	background-color: #578c05;
 	height: 70px;
 	width: 70px;
-	padding: 1px;
 	float: left;
-	/*margin-left: 90px;
-	margin-bottom: 10px;*/
+	position: absolute;
+        top: 40px;
+        right: 40px;
 }
 
 /*#bluebox {
@@ -109,10 +109,11 @@ body {
 	background-color: #234afb;
 	height: 70px;
 	width: 70px;
-	padding: 1px;
 	float: left;
-	/*margin-left: 120px;
-	margin-bottom: 10px;*/
+	position: absolute;
+        top: 40px;
+        right: 40px;
+
 }
 
 /*#purplebox {
@@ -126,8 +127,8 @@ body {
 	background-color: #df8bf0;
 	height: 70px;
 	width: 70px;
-	padding: 1px;
 	float: left;
-	/*margin-left: 150px;
-	margin-bottom: 10px;*/
+	position: absolute;
+        top: 40px;
+        right: 40px;
 }
