@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Math Objects in Javascript</title>
+	<style type="text/css">
+		body {
+			background-color: #2b3e50;
+		}
+		h1 {
+			font-size: 2em;
+			color: white;
+			font-family: arial;
+		}
+	</style>
+</head>
+<body>
+
+	<h1>Math Objects in Javascript</h1>
+
+	
+
+
+<script>
+
+// create a circle object
+var circle = {
+radius: 3,
+
+	getArea: function () {
+	    return Math.PI * Math.pow(this.radius, 2); 
+	},
+
+	logInfo: function (round) {
+		var area = this.getArea();
+	    if (round) {
+	    	area = Math.round(area);
+	    };
+
+    console.log('Area of a circle with radius: ' + this.radius + ', is: ' + area);
+	}
+};
+
+// log info about the circle
+circle.logInfo(false);
+circle.logInfo(true);
+
+// // todo:
+circle.radius = 5;
+
+// // log info about the circle
+circle.logInfo(false);
+circle.logInfo(true);
+
+</script>
+
+
+
+
+</body>
+</html>
