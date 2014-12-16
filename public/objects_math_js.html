@@ -18,6 +18,8 @@
 
 	<h1>Math Objects in Javascript</h1>
 
+
+
 	
 
 
@@ -25,7 +27,7 @@
 
 // create a circle object
 var circle = {
-radius: 3,
+	radius: 3,
 
 	getArea: function () {
 	    return Math.PI * Math.pow(this.radius, 2); 
@@ -37,7 +39,7 @@ radius: 3,
 	    	area = Math.round(area);
 	    };
 
-    console.log('Area of a circle with radius: ' + this.radius + ', is: ' + area);
+    	console.log('Area of a circle with radius: ' + this.radius + ', is: ' + area);
 	}
 };
 
@@ -51,6 +53,9 @@ circle.radius = 5;
 // // log info about the circle
 circle.logInfo(false);
 circle.logInfo(true);
+
+var today = new Date();
+console.log(today);
 
 </script>
 
