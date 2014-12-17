@@ -10,28 +10,22 @@ var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'A
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date#Getter
 
 var jsBirthday = new Date("April 27, 1969 11:17:00");
-var month = months[jsBirthday.getMonth()];
-var date = jsBirthday.getDate();
-var year = jsBirthday.getFullYear();
+// var month = months[jsBirthday.getMonth()];
+// var date = jsBirthday.getDate();
+// var year = jsBirthday.getFullYear();
 
-var fullDate = month + " " + date + ", " + year;
+// var fullDate = month + " " + date + ", " + year;
 
-console.log('Here is my birthday using vanilla js: ' + fullDate);
-
-
-
-
-// create the date corresponding to your birthday using Moment.js.
-
-var moDay = moment('April 27, 1969').format("MMMM Do YYYY");
-console.log(moDay);
+// console.log('Here is my birthday using vanilla js: ' + fullDate);
 
 
 
 
+// // create the date corresponding to your birthday using Moment.js.
 
-// var momentBirthday = moment().format("dddd, MMMM Do YYYY, h:mm:ss a");
+var momentBirthday = moment(jsBirthday);
 
-// // todo:
-// // Log your birthday in the format: January 1, 2014 using Moment.js.
-// console.log('Here is my birthday using Moment.js: ' + momentBirthday);
+// console.log(momentBirthday);
+
+console.log('Here is my birthday using Moment.js: ' + momentBirthday.format('MMMM D, YYYY'));
+
