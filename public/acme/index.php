@@ -1,5 +1,7 @@
 <?php
 
-include 'header.php';
+include '../acme/includes/nav.php';
 
-include 'footer.php';
+include '../acme/includes/header.php';
+
+include '../acme/includes/footer.php';
