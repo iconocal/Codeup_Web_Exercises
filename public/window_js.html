@@ -6,9 +6,26 @@
     <h2>Autosaving Text Input</h2>
     <textarea rows="10" cols="60" id="important"></textarea>
 
+    
+
+    <script src="/js/jquery.min.js"></script>
     <script>
+    $(document).ready(function() {
+        $('li').css('font-size', '20px');
+        // $('h1').css('background-color', 'yellow');
+        // $('p').css('background-color', 'yellow');
+        // $('li').css('background-color', 'yellow');
+        // $('li, h1, p').css('background-color', 'yellow');
+        // or
+        // var selected = $('li, h1, p');
 
         var doAfter;
+        
+        $('h2').click(function() {
+        $(this).css('background-color', 'yellow');
+        });
+
+
 
         function save() {
             console.log('Saved!');
@@ -35,6 +52,9 @@
         var textarea = document.getElementById('important');
         textarea.addEventListener('keyup', autosave, false);
 
-    </script>
+
+    });
+
+     </script>
 </body>
 </html>
