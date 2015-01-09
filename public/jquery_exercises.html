@@ -39,8 +39,24 @@
         // $('li').css('background-color', 'yellow');
         // $('li, h1, p').css('background-color', 'yellow');
         // or
-        var selected = $('li, h1, p');
-        selected.css('background-color', 'yellow');
+        // var selected = $('li, h1, p');
+        
+        $('h1').click(function() {
+        $(this).css('background-color', 'yellow');
+        });
+
+        $('p').dblclick(function() {
+        $('p').css('font-size', '18px');
+        });
+
+        $('li').hover(
+                function() {
+                    $(this).css('color', 'red');
+                },
+                function() {
+                    $(this).css('color', 'white');
+                }
+            );
 
 
     });
