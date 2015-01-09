@@ -16,13 +16,15 @@
 
 <body>
 
-    <h1 class='codeup'>Wassup!</h1>
+    <h1>Wassup!</h1>
+
+    <h1>Dog!</h1>
 
     <div>
-        <h1 id="header">Hello Codeup!</h1>
-        <p id="paragraph">This is an HTML paragraph.</p>
-        <ul id="ulist">
-            <li id="lineitem">This is a line item.</li>
+        <h1>Hello Codeup!</h1>
+        <p>This is an HTML paragraph.</p>
+        <ul>
+            <li>This is a line item.</li>
         </ul>
     </div>
 
@@ -31,26 +33,11 @@
     <script src="/js/jquery.min.js"></script>
     <script>
     $(document).ready(function() {
-        // alert( 'The DOM has finished loading!' );
-        // var greeting = $('#greeting').html();
-        // console.log(greeting);
-
-        // var mainDiv = $('#main-div').html();
-        // console.log(mainDiv);
-
-        // var header = $('#header').html();
-        // console.log(header);
-
-        // var para = $('#paragraph').html();
-        // console.log(para);
-
-        // var ul = $('#ulist');
-        // console.log(ul);
-
-        // var li = $('#lineitem').html();
-        // console.log(li);
-
-        $('.codeup').css('border-style','solid').css('border-width', '1px').css('border-color', 'red');
+        $('li').css('font-size', '20px');
+        $('h1').css('background-color', 'yellow');
+        $('p').css('background-color', 'yellow');
+        $('li').css('background-color', 'yellow');
+        alert($('h1').html());
 
 
     });
