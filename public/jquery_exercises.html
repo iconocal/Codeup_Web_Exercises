@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jquery exercises</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+
+</head>
+
+
+<body>
+
+    <h1 id="greeting">Wassup!</h1>
+
+    <div id="main-div">
+        <h1 id="header">Hello Codeup!</h1>
+        <p id="paragraph">This is an HTML paragraph.</p>
+        <ul id="ulist">
+            <li id="lineitem">This is a line item.</li>
+        </ul>
+    </div>
+
+
+
+    <script src="/js/jquery.min.js"></script>
+    <script>
+    $(document).ready(function() {
+        // alert( 'The DOM has finished loading!' );
+        var greeting = $('#greeting').html();
+        console.log(greeting);
+
+        var mainDiv = $('#main-div').html();
+        console.log(mainDiv);
+
+        var header = $('#header').html();
+        console.log(header);
+
+        var para = $('#paragraph').html();
+        console.log(para);
+
+        var ul = $('#ulist');
+        console.log(ul);
+
+        var li = $('#lineitem').html();
+        console.log(li);
+
+
+    });
+    </script>
+
+
+</body>
+</html>
