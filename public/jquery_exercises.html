@@ -3,6 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>jquery exercises</title>
+    <style>
+        .codeup {
+            text-align: center;
+        }
+    </style>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
 
@@ -11,9 +16,9 @@
 
 <body>
 
-    <h1 id="greeting">Wassup!</h1>
+    <h1 class='codeup'>Wassup!</h1>
 
-    <div id="main-div">
+    <div>
         <h1 id="header">Hello Codeup!</h1>
         <p id="paragraph">This is an HTML paragraph.</p>
         <ul id="ulist">
@@ -27,23 +32,25 @@
     <script>
     $(document).ready(function() {
         // alert( 'The DOM has finished loading!' );
-        var greeting = $('#greeting').html();
-        console.log(greeting);
+        // var greeting = $('#greeting').html();
+        // console.log(greeting);
 
-        var mainDiv = $('#main-div').html();
-        console.log(mainDiv);
+        // var mainDiv = $('#main-div').html();
+        // console.log(mainDiv);
 
-        var header = $('#header').html();
-        console.log(header);
+        // var header = $('#header').html();
+        // console.log(header);
 
-        var para = $('#paragraph').html();
-        console.log(para);
+        // var para = $('#paragraph').html();
+        // console.log(para);
 
-        var ul = $('#ulist');
-        console.log(ul);
+        // var ul = $('#ulist');
+        // console.log(ul);
 
-        var li = $('#lineitem').html();
-        console.log(li);
+        // var li = $('#lineitem').html();
+        // console.log(li);
+
+        $('.codeup').css('border-style','solid').css('border-width', '1px').css('border-color', 'red');
 
 
     });
