@@ -34,10 +34,13 @@
     <script>
     $(document).ready(function() {
         $('li').css('font-size', '20px');
-        $('h1').css('background-color', 'yellow');
-        $('p').css('background-color', 'yellow');
-        $('li').css('background-color', 'yellow');
-        alert($('h1').html());
+        // $('h1').css('background-color', 'yellow');
+        // $('p').css('background-color', 'yellow');
+        // $('li').css('background-color', 'yellow');
+        // $('li, h1, p').css('background-color', 'yellow');
+        // or
+        var selected = $('li, h1, p');
+        selected.css('background-color', 'yellow');
 
 
     });
