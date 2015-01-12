@@ -9,13 +9,10 @@
     <script src="/js/jquery.min.js"></script>
     <script>
         $('document').ready(function() {
-            $('ul').each(function(){
-                $(this).children().first().css('background-color', 'red');
+            $('h3').click(function(){
+                $(this).next().fadeToggle();
             });
 
-            $('li').click(function() {
-                $(this).parent().hide();
-            });
     });
     </script>
 </head>
