@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>jQuery FAQ</title>
+	<link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+	<style>
+        .invisible {
+            display: none;
+        }
+		
+		.red {
+			color: red;
+		}
+
+		.divPad {
+			padding: 25px;
+		}
+
+
+        
+    </style>
+    <script src="/js/jquery.min.js"></script>
+    <script>
+        $('document').ready(function() {
+            $('#toggledd').click(function(event) {
+                event.preventDefault();
+                $('dd').toggleClass('invisible');
+            });
+
+        });
+    </script>
+</head>
+<body>
+	<h1>Everything You Ever Wanted To Know About National Parks</h1>
+
+	<div class = "divPad">
+		<dl>
+			<dt>First Question</dt>
+			<dd class="invisible red">What a bonehead.</dd>
+			<dt>Second Question</dt>
+			<dd class="invisible red">Seriously. What a total bonehead.</dd>
+			<dt>Question 3</dt>
+			<dd class="invisible red">People really ask this question. What a bunch of boneheads.</dd>
+			<dt>Question Numero 4</dt>
+			<dd class="invisible red">I'm quickly becoming weary of this.</dd>
+			<dt>Cinco Questiono!!</dt>
+			<dd class="invisible red">Yeepah! Yeepah!</dd>
+			<dt>Have you ever been to a National Park?</dt>
+			<dd class="invisible red">My grandfather used to drag me and my sister to all sorts of National Parks.</dd>
+			<dt>Did you enjoy it?</dt>
+			<dd class="invisible red">Once my grandfather bought me a toy bow and arrow set. I shot my sister with it. I enjoyed that.</dd>
+			<dt>What?? Was she hurt?</dt>
+			<dd class="invisible red">Nah. I mean, not physically. She still carries the emotional scars.</dd>
+			<dt>Emotional scars?</dt>
+			<dd class="invisible red">Yeah. Emotional scars. The sound of indian drums makes her cry. Or if you point a bow and arrow at her.</dd>
+			<dt>Ha! That sounds pretty funny!</dt>
+			<dd class="invisible red">It is. It really is.</dd>
+		</dl>
+	</div>
+
+	<footer>
+	<hr>
+    <a href="#" id="toggledd">Click to toggle FAQ answers.</a></p>
+	</footer>
+	
+</body>
+</html>
