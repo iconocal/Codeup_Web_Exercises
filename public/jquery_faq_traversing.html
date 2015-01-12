@@ -1,0 +1,49 @@
+<html>
+<head>
+    <title>Parks List</title>
+    <style>
+        .invisible {
+            display: none;
+        }
+    </style>
+    <script src="/js/jquery.min.js"></script>
+    <script>
+        $('document').ready(function() {
+            $('ul').each(function(){
+                $(this).children().first().css('background-color', 'red');
+            });
+
+            $('li').click(function() {
+                $(this).parent().addClass('invisible');
+            });
+    });
+    </script>
+</head>
+<body>
+    <h1>Parks List</h1>
+    <h3>Jellystone National Park</h3>
+    <ul id="park">
+        <li>Home of Yogi Bear.</li>
+        <li>And his sidekick, whathisname.</li>
+        <li>Yogi wears a tie but he's not fooling anyone.</li>
+        <li>I feel sorry for that park ranger who has to hide the body after Yogi mauls someone.</li>
+        <li>Picnic Baskets. You never see them anymore, right? Discuss.</li>
+    </ul>
+    <h3>Grand Canyon National Park</h3>
+    <ul id="park">
+        <li>Big hole in the ground.</li>
+        <li>The Brady Bunch visisted sometime in the 1970's.</li>
+        <li>Greg is kind of a dick, don't you think?</li>
+        <li>Marcia was pretty hot back then! Did you know that she hit a low point where she was trading sex for drugs?</li>
+        <li>I wish I had some drugs.</li>
+    </ul>
+    <h3>Calvin Glover National Park</h3>
+    <ul id="park">
+        <li>Established by Congress in 1993.</li>
+        <li>3 square feet but extends 1500ft. underground.</li>
+        <li>Not, I repeat not, to be confused with the Calvin Glover Presidential Library.</li>
+        <li>Admission: $5.</li>
+        <li>Not particularly exciting.</li>
+    </ul>
+</body>
+</html>
