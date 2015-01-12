@@ -26,7 +26,7 @@
         $('document').ready(function() {
             $('#toggledd').click(function(event) {
                 event.preventDefault();
-                $('dd').toggleClass('invisible');
+                $('dd').toggle();
             });
             $('dt').click(function() {
             	$(this).next().toggleClass('invisible');
